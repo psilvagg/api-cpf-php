@@ -35,6 +35,10 @@ Este projeto é uma aplicação simples em PHP que consulta dados do CPF utiliza
 3. Abra o arquivo PHP em um servidor web com suporte a PHP.
 4. Acesse o aplicativo via navegador.
 
+## Préva
+![image](https://github.com/user-attachments/assets/4ed1b52a-cc41-48de-b23f-87c5c8db3594)
+
+https://api-cpf.pedro-dev.me/
 ## Links
 
 - [APICPF](https://www.apicpf.com/)
