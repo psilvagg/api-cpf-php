@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['cpf'])) {
     if (strlen($cpf) !== 11) {
         $resultado = "<div class='alert alert-danger mt-3 animate__animated animate__shakeX'>CPF inválido</div>";
     } else {
-        $apiKey = "919571aa52d3c6957efcb01c31501744bb737b71d0d63cfe2c7a785ceb00546b";
+        $apiKey = "SUA_CHAVE_API_AQUI";
         $url = "https://apicpf.com/api/consulta?cpf=$cpf&api_key=$apiKey";
 
         $response = @file_get_contents($url);
